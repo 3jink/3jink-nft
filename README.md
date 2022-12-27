@@ -91,6 +91,7 @@ services:
 ```
 
 2. Clone项目源码，构建前端镜像
+
 2.1 开发服务器模式
 - 分别进入 web-management 和 web-h5 目录，运行 `docker build ./ -t ${镜像名称}` 构建镜像
 - 启动时通过参数 `-e VUE_APP_BASE_URL=${后端服务HOST}` 传入后端服务的访问域名，如: `https://127.0.0.1:8083`
