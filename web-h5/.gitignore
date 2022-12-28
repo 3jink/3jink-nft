@@ -1,0 +1,14 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.hbuilderx
+*.test
+*.out
+.idea
+node_modules
+unpackage/
+dist/
+yarn-error.log

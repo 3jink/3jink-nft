@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="74px" height="74px" viewBox="0 0 74 74" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组 4</title>
+    <defs>
+        <polyline id="path-1" points="27.3228376 34.1956107 34.7533658 41.6647706 46.396039 29.9882965"></polyline>
+        <filter x="-58.9%" y="-79.2%" width="217.9%" height="292.6%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="3" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feMorphology radius="3" operator="erode" in="SourceAlpha" result="shadowInner"></feMorphology>
+            <feOffset dx="0" dy="2" in="shadowInner" result="shadowInner"></feOffset>
+            <feComposite in="shadowOffsetOuter1" in2="shadowInner" operator="out" result="shadowOffsetOuter1"></feComposite>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.156862745   0 0 0 0 0.682352941   0 0 0 0 0.37254902  0 0 0 0.336412123 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="-18.8898638%" y1="100%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="IP方主页备份-3" transform="translate(-512.000000, -982.000000)">
+            <g id="编组-4" transform="translate(512.000000, 982.000000)">
+                <polygon id="星形" fill="#28AE5F" transform="translate(36.955181, 36.955181) rotate(-23.000000) translate(-36.955181, -36.955181) " points="36.9551813 56.5703411 26.1698339 62.9933133 23.0851688 50.8251938 10.9170493 47.7405287 17.3400215 36.9551813 10.9170493 26.1698339 23.0851688 23.0851688 26.1698339 10.9170493 36.9551813 17.3400215 47.7405287 10.9170493 50.8251938 23.0851688 62.9933133 26.1698339 56.5703411 36.9551813 62.9933133 47.7405287 50.8251938 50.8251938 47.7405287 62.9933133"></polygon>
+                <g id="路径-2">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use stroke="#FFFFFF" stroke-width="6" xlink:href="#path-1"></use>
+                </g>
+                <polygon id="路径-7" fill="url(#linearGradient-3)" opacity="0.4" points="44.3031495 18.7683218 36.9551813 21.9030669 29.1756299 18.8402863 36.7393897 3.71722018"></polygon>
+                <polygon id="路径-7备份" fill="url(#linearGradient-3)" opacity="0.4" transform="translate(12.739390, 37.810144) rotate(-90.000000) translate(-12.739390, -37.810144) " points="20.3031495 43.7683218 12.9551813 46.9030669 5.17562986 43.8402863 12.7393897 28.7172202"></polygon>
+                <polygon id="路径-7备份-2" fill="url(#linearGradient-3)" opacity="0.4" transform="translate(37.613249, 61.319429) rotate(-180.000000) translate(-37.613249, -61.319429) " points="45.177009 67.277607 37.8290408 70.4123521 30.0494894 67.3495715 37.6132492 52.2265054"></polygon>
+                <polygon id="路径-7备份-3" fill="url(#linearGradient-3)" opacity="0.4" transform="translate(61.095284, 36.546123) rotate(-270.000000) translate(-61.095284, -36.546123) " points="68.6590434 42.5043013 61.3110752 45.6390464 53.5315238 42.5762658 61.0952836 27.4531997"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

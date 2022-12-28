@@ -1,0 +1,19 @@
+{
+  "name": "nft-user-h5",
+  "version": "1.0.0",
+  "description": "nft H5用户端",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+
+  }
+}

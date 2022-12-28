@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="690px" height="690px" viewBox="0 0 690 690" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组 23备份</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="210" height="240"></rect>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="编组-23备份">
+            <rect id="矩形" fill="#F5F5F5" x="0" y="0" width="690" height="690"></rect>
+            <g id="编组" opacity="0.699999988" transform="translate(240.000000, 225.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="蒙版" fill-opacity="0" fill="#FFFFFF" xlink:href="#path-1"></use>
+                <g id="编组备份" mask="url(#mask-2)">
+                    <g transform="translate(93.975228, 127.448459) rotate(-120.000000) translate(-93.975228, -127.448459) translate(-60.788191, -32.891073)">
+                        <g id="编组-6" stroke-width="1" fill="none">
+                            <g id="编组-10" transform="translate(-0.000000, 0.000000)">
+                                <g id="路径-33" transform="translate(132.666492, 39.260208)" fill="#EDEDED">
+                                    <polygon id="路径-31" points="0 138.320022 29.2861788 120.582073 29.41651 51.4000251 115.424872 101.115979 145.2575 84.329558 0 0"></polygon>
+                                </g>
+                                <g id="编组-9" transform="translate(154.763419, 148.939218) rotate(-120.000000) translate(-154.763419, -148.939218) translate(51.907049, 29.455626)">
+                                    <polygon id="路径-31" fill="#E8E8E8" points="60.4552419 138.320022 89.8717519 120.656261 89.8717519 51.4000251 175.880114 101.115979 205.712742 84.329558 60.4552419 -9.09494702e-13"></polygon>
+                                    <polygon id="路径-2" fill="#DDDDDD" points="60.4552419 7.73070497e-12 30.3864769 16.4527639 30.7988823 155.30282 60.5193227 137.743554"></polygon>
+                                    <polygon id="路径-5" fill="#DBDBDB" points="205.712742 84.329558 194.383199 111.834259 175.880114 101.115979"></polygon>
+                                    <polygon id="路径-5备份-2" fill="#E3E3E3" transform="translate(19.343955, 44.592536) rotate(-120.000000) translate(-19.343955, -44.592536) " points="34.2854211 30.8825209 22.9670938 58.3025517 4.40248841 47.5842718"></polygon>
+                                    <polygon id="路径-5备份" fill="#E1E1E1" transform="translate(58.761792, 219.143471) rotate(-240.000000) translate(-58.761792, -219.143471) " points="73.7273455 205.417145 62.3300834 232.869798 43.796238 222.204796"></polygon>
+                                </g>
+                                <g id="编组-9备份" transform="translate(154.994871, 224.795676) rotate(-240.000000) translate(-154.994871, -224.795676) translate(95.253013, 180.850644)" fill="#DDDDDD">
+                                    <polygon id="路径-32" points="0.468814754 35.7634818 0 4.99597169e-12 118.593991 69.1151686 119.483717 70.6613443 90.0061251 87.8900634"></polygon>
+                                </g>
+                                <polygon id="路径-31" fill="#F2F2F2" transform="translate(184.628311, 222.794166) rotate(-240.000000) translate(-184.628311, -222.794166) " points="111.546041 291.811 141.38715 274.010879 141.627976 204.223509 227.779472 253.692074 257.71058 236.904423 111.84398 153.777332"></polygon>
+                            </g>
+                        </g>
+                        <polygon id="路径-3" fill="#DDDDDD" points="132.666492 39.2602081 102.397654 55.5978846 102.489233 194.269504 132.666492 177.58023"></polygon>
+                        <polygon id="路径-4" fill="#DDDDDD" points="281.823968 159.916469 280.790807 194.269504 161.399113 124.994647 162.083002 90.6602333"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

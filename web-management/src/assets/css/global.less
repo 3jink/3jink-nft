@@ -1,0 +1,147 @@
+@import '~ant-design-vue/es/style/themes/default.less';
+@import './common.css';
+
+html,
+body,
+#app, #root {
+  height: 100%;
+}
+
+.colorWeak {
+  filter: invert(80%);
+}
+
+//.ant-layout {
+//  background: #ffffff!important;
+//}
+
+.ant-layout.layout-basic {
+  height: 100vh;
+  min-height: 100vh;
+}
+
+canvas {
+  display: block;
+}
+
+body {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+// 数据列表 样式
+.table-alert {
+  margin-bottom: 16px;
+}
+.ant-table-body{
+  margin: 0 !important;
+}
+
+// 数据列表 操作
+.table-operator {
+  margin-bottom: 18px;
+
+  button {
+    margin-right: 8px;
+  }
+}
+
+// 数据列表 搜索条件
+.table-page-search-wrapper {
+  .ant-form-inline {
+    .ant-form-item {
+      display: flex;
+      margin-bottom: 24px;
+      margin-right: 0;
+
+      .ant-form-item-control-wrapper {
+        flex: 1 1;
+        display: inline-block;
+        vertical-align: middle;
+      }
+
+      > .ant-form-item-label {
+        line-height: 32px;
+        padding-right: 8px;
+        width: auto;
+      }
+
+      .ant-form-item-control {
+        height: 32px;
+        line-height: 32px;
+      }
+    }
+  }
+
+  .table-page-search-submitButtons {
+    display: block;
+    margin-bottom: 24px;
+    white-space: nowrap;
+  }
+}
+//修改表格默认样式
+.ant-table-tbody{
+  font-weight: 350;
+  color: #5A5A5A;
+}
+.ant-table-content{
+  line-height: 40px;
+}
+.ant-table-thead {
+  background: #FAFAFA;
+  .ant-table-column-title{
+    font-weight: bolder;
+  }
+}
+@media (max-width: @screen-xs) {
+  .ant-table {
+    width: 100%;
+    overflow-x: auto;
+
+    &-thead > tr,
+    &-tbody > tr {
+      > th,
+      > td {
+        white-space: pre;
+
+        > span {
+          display: block;
+        }
+      }
+    }
+  }
+}
+
+//自定义左侧抽屉样式
+.ant-pro-sider-menu {
+  .ant-drawer-content-wrapper {
+    width: 220px !important;
+  }
+}
+
+.ant-pro-basicLayout-content{
+  //background: #ffffff;
+  margin: 0;
+}
+
+.tablePadding{
+  padding: 25px;
+}
+
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+/* Common style variables */
+@common-background-color: #ffffff; // Common table padding value
+@common-table-padding: 25px; // Common table padding value
+@common-content-font-size: 64px;
+/* Common style variables */
