@@ -18,7 +18,6 @@ function getGitHash() {
   return 'unknown'
 }
 
-console.log(process.env.NODE_ENV)
 const isProd = process.env.NODE_ENV === 'production'
 
 const assetsCDN = {

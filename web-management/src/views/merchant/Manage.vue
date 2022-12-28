@@ -271,7 +271,6 @@ export default {
       });
     },
     async setMerchant(id) {
-      console.log(id)
       if (id === this.defaultMerchant) return
       try {
         let req = {
@@ -285,9 +284,7 @@ export default {
         }
         let res = await setDefaultMerchant(req)
         await this.getMerchant()
-        console.log(res, 'set merchant')
       } catch (e) {
-        console.log(e, 'setMerchant')
       }
     },
     async getMerchant() {

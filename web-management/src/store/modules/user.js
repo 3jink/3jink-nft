@@ -47,10 +47,8 @@ const user = {
     // 登录
     //只需要这个接口返回token并存下来，就可以进入系统
     async Login({commit}, userInfo) {
-      // console.log(userInfo);
       const res = await login(userInfo)
       if (res && res.data) {
-        // console.log(res);
         const idToken = res.data.idToken
         const refreshToken = res.data.refreshToken
         storage.set(ID_TOKEN, idToken)

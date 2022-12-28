@@ -213,7 +213,6 @@ export default {
   methods: {
     getManyUrl(url){
       this.form.detailImageFiles = url;
-      console.log(url,'外面')
     },
 
     copy(value) {
@@ -249,10 +248,8 @@ export default {
       }
     },
     handleOk() {
-      console.log(111)
       this.$refs.ruleForm.validate(async valid => {
         if (valid) {
-          console.log(222)
           let req = {
             "detailImageFiles": this.form.detailImageFiles,
             "issueNum": this.form.issueNum,
@@ -276,12 +273,10 @@ export default {
                 await this.getNftDetail()
               }, 500)
             } catch (e) {
-              console.log('catch')
               this.showMask = false
             }
           }, 2000)
         } else {
-          console.log('return')
           return false;
         }
       });

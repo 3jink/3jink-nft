@@ -97,7 +97,6 @@ export default {
       let reqData = arrs.data;
       let arr = []
       reqData.forEach((item,index)=>{
-        // console.log(item)
         let outJson={}
         for (const key in item) {
           let json ={}

@@ -165,11 +165,9 @@ export default {
         }, 16)
       })
     }
-    // console.log('moubnted',process.env.NODE_ENV !== 'production',process.env.VUE_APP_PREVIEW === 'true',this.settings.primaryColor)
     // first update color
     // TIPS: THEME COLOR HANDLER!! PLEASE CHECK THAT!!
     if (process.env.NODE_ENV !== 'production' || process.env.VUE_APP_PREVIEW === 'true') {
-      // console.log('设置成功',this.settings.primaryColor)
       updateTheme(this.settings.primaryColor)
     }
   },
@@ -205,7 +203,6 @@ export default {
       this.collapsed = val
     },
     handleSettingChange({ type, value }) {
-      console.log('type', type, value)
       type && (this.settings[type] = value)
       switch (type) {
         case 'contentWidth':

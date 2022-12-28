@@ -65,9 +65,6 @@ export default {
         title: '信息',
         content: '您确定要退出吗？',
         onOk: () => {
-          // return new Promise((resolve, reject) => {
-          //   setTimeout(Math.random() > 0.5 ? resolve : reject, 1500)
-          // }).catch(() => console.log('Oops errors!'))
           return this.$store.dispatch('Logout').then(() => {
             this.$message.success('退出成功！');
             this.$router.push({name: 'login'})

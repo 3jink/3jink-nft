@@ -1,7 +1,7 @@
 <template>
   <global-footer class="footer custom-render">
     <template v-slot:links>
-      <a>copyright@成都今赛科技有限公司</a>
+      <a>copyright@海南数源三街网络科技有限公司</a>
     </template>
   </global-footer>
 </template>

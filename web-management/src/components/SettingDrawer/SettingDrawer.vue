@@ -231,10 +231,8 @@ export default {
   production: process.env.NODE_ENV === 'production' && process.env.VUE_APP_PREVIEW !== 'true'
 }`
       this.$copyText(text).then(message => {
-        console.log('copy', message)
         this.$message.success('复制完毕')
       }).catch(err => {
-        console.log('copy.err', err)
         this.$message.error('复制失败')
       })
     },

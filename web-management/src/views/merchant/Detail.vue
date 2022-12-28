@@ -292,7 +292,6 @@ export default {
     },
     //删除管理员账号
     async delAdminVerfy(row){
-      console.log(row)
       try {
         const reqData={
           userId:row['userId'],
